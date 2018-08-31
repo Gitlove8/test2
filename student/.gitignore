@@ -1,9 +1,0 @@
-/target/
-/ settings/
-. classpath
-. project
-. gitignore
-.xml
-/build/
-/META-INF/
-/WEB-INF/
