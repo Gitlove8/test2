@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>首页</title>
+<title>666</title>
 </head>
 <body> 
 		 <jsp:forward page="/ShopServlet"></jsp:forward>
