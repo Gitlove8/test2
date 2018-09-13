@@ -1,0 +1,178 @@
+@charset "utf-8";
+html{-webkit-font-smoothing:antialiased}
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0;font-family:Microsoft Yahei;font-size:11px;}
+header, hgroup, nav, menu, main, section, article, summary, details, aside, figure, figcaption, footer{display: block;margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,b,caption,cite,code,dfn,em,i,strong,th,var{font-style:normal;font-weight:400}
+dl,ol,ul{list-style-type:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+a{text-decoration:none}
+a:hover{text-decoration:none;-webkit-tap-highlight-color:rgba(255,0,0,0);outline:0;outline:none;blr:expression(this.onFocus=this.blur())}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+textarea{resize:none;font-family: Microsoft Yahei;}
+img{vertical-align:middle;height: auto;}
+button,input[type=submit],input[type=text],input[type=button]{-webkit-appearance:none;border-radius:0;-webkit-tap-highlight-color:rgba(255,0,0,0);outline:0;outline:0;blr:expression(this.onFocus=this.blur());font-family: Microsoft Yahei;}
+body{color:#000;line-height:1;background:#fff;min-width: 1200px;}
+body *{box-sizing: border-box;line-height:1;}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0;font-size:0;}
+.ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.btn{text-align: center;display: inline-block;cursor: pointer;white-space: nowrap;vertical-align: middle;border: none;}
+.icon{display: inline-block;background-repeat: no-repeat;background-position: center center;vertical-align: middle;}
+#web-ietip{width: 526px; height: 90px; padding: 83px 0 0 84px; overflow:hidden; background: url("browser.png")/*tpa=http://www.xydec.com.cn/css/ietip/browser.png*/ no-repeat center center; margin: 200px auto 0;}
+#web-ietip a{display: block; width: 65px; height: 80px; float: left;}
+.w{width: 1200px;margin: 0 auto;position: relative;}
+.opa{opacity: 1;}
+.opa:hover{transition: opacity .3s;-webkit-transition: opacity .6s;opacity: 0.8;}
+.opa-bg{display: none;position: fixed;width: 100%;height: 100%;left: 0;top: 0;background-color: rgba(0,0,0,0.3);z-index: 99999;}
+.opa-bg.show{display: block;}
+.opa-0{opacity: 0;filter: alpha(opacity=0);}
+.img-out{position: relative;overflow: hidden;}
+.img-out img{display: block;transform: scale(1.001);vertical-align: top;transition: all 0.5s ease 0s;}
+.img-out:hover img{transform: scale(1.07);transition: all 0.5s ease 0s;}
+
+.sp1{height: 92px;}
+.sp2{height: 613px;}
+
+.sp-wrap{width: 100%;overflow: hidden;}
+.sp-b{width: 1920px;position: relative;left: -360px;}
+.sp-b .sp{width: 100%;position: relative;}
+.sp-b .sp>img{width: 100%;}
+
+.w5{width: 1200px;height: 100%;position: absolute;left: 50%;margin-left: -600px;top: 0;}
+.w5>a{display: block;width: 182px;height: 38px;position: absolute;background-image: url("opa-bg.jpg")/*tpa=http://www.xydec.com.cn/images/opa-bg.jpg*/;}
+.w5 .btn1{left: 309px;top: 371px;}
+.w5 .btn2{left: 757px;top: 370px;}
+
+.w6-form{width: 582px;height: 421px;margin-top: 159px;position: absolute;left: 50%;margin-left: -292px;top: 0;padding-top: 23px;}
+.w6-form .row1{width: 510px;height: 67px;margin-left: 36px;text-align: center;font-size: 0;margin-bottom: 29px;}
+.w6-form .sp6-dt{font-size: 23px;color: #fff;line-height: 45px;vertical-align: top;display: inline-block;}
+.w6-form .sp6-dd{font-size: 59px;color: #fff;line-height: 67px;min-width: 230px;vertical-align: top;display: inline-block;}
+.w6-form .row2{width: 328px;margin-left: 93px;margin-bottom: 15px;}
+.w6-form .row2 input[type=text]{width: 100%;height: 20px;line-height: 18px;border: none;border-bottom: 2px solid #a0a0a0;background-color: transparent;line-height: 20px;font-size: 14px;color: #000;}
+.w6-form .row3{width: 328px;margin-left: 93px;margin-bottom: 25px;}
+.w6-form .row3 input[type=text]{width: 100%;height: 20px;line-height: 18px;border: none;border-bottom: 2px solid #a0a0a0;background-color: transparent;line-height: 20px;font-size: 14px;color: #000;}
+.w6-form .row4{width: 328px;margin-left: 93px;margin-bottom: 14px;}
+.w6-form .row4 input[type=text]{width: 100%;height: 20px;line-height: 18px;border: none;border-bottom: 2px solid #a0a0a0;background-color: transparent;line-height: 20px;font-size: 14px;color: #000;}
+
+.w6-form .row4 .dd{font-size: 0;}
+.w6-form .row4 .dd .w3{width: 33.33%;height: 100%;border: none;text-align: left;float: left;}
+.w6-form .row4 .dd select {height: 100%;border: none;text-align: left;}
+.w6-form .row4 .layui-form-select .layui-edge{ margin-top: -14px; }
+.w6-form .row4 .layui-form-selected .layui-edge{ margin-top: -20px; }
+.layui-form-select{ height: 42px;}
+.layui-select-title{ height: 36px;}
+
+
+
+
+
+.w6-form .row5{width: 380px;margin-left: 93px;font-size: 0;margin-bottom: 28px;}
+.w6-form .row5 .loan-num{display: inline-block;vertical-align: top;width: 58px;height: 28px;line-height: 28px;border: 1px solid #a0a0a0;background-color: #f5f5f5;margin-right: 8px;font-size: 14px;color: #000;text-align: center;cursor: pointer;}
+.w6-form .row5 .loan-num.active{border-color: #6394e3;background-color: #6394e3;color: #fff;}
+.w6-form .row6{width: 322px;height: 28px;border: 1px solid #a0a0a0;margin-left: 93px;text-align: center;line-height: 26px;font-size: 14px;color: #000;background-color: #f5f5f5;margin-bottom: 29px;}
+.w6-form .row7{width: 470px;margin-left: 93px;font-size: 0;margin-bottom: 66px;}
+.w6-form .row7 .stage{display: inline-block;vertical-align: top;width: 58px;height: 28px;line-height: 28px;border: 1px solid #a0a0a0;background-color: #f5f5f5;margin-right: 8px;font-size: 14px;color: #000;text-align: center;cursor: pointer;}
+.w6-form .row7 .stage.active{border-color: #6394e3;background-color: #6394e3;color: #fff;}
+.w6-form .row8{width: 100%;text-align: center;}
+.w6-form .row8 .btn-link{font-size: 20px;color: #000;}
+
+.btn-cal{display: block;width: 61px;height: 111px;border-radius: 4px;background-color: #6394e3;font-size: 27px;color: #fff;text-align: center;padding-left: 10px;padding-right: 10px;padding-top: 16px;position: absolute;right: 42px;bottom: 144px;cursor: pointer;}
+
+.btn-loan{display: block;width: 305px;height: 56px;line-height: 56px;border-radius: 10px;background-color: #6394e3;font-size: 27px;color: #fff;text-align: center;position: absolute;left: 447px;top: 520px;cursor: pointer;}
+
+.ft-wrap{visibility: hidden;opacity: 0;display: table;position: fixed;left: 0;top: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.6);z-index: 100000;transition: all .3s;}
+.ft-wrap.show{visibility: visible;opacity: 1;}
+.ft-wrap .ft-center{display: table-cell;vertical-align: middle;width: 400px;}
+.ft-wrap .ft-inner{margin: 0 auto;width: 375px;position: relative;background-color: #fff;padding: 0 20px 27px 20px;}
+.ft-wrap .ft-inner .ft-close{width: 32px;height: 32px;font-size: 30px;position: absolute;right: 4px;top: 7px;cursor: pointer;border-radius: 50%;}
+.ft-wrap .title{font-size: 18px;color: #221815;text-align: center;padding-top: 22px;padding-bottom: 17px;}
+.ft-wrap .row{width: 100%;height: 44px;border: 1px solid #d9dde2;margin-bottom: 24px;}
+.ft-wrap .dt{float: left;width: 113px;padding-right: 29px;font-size: 14px;color: #221815;line-height: 42px;text-align: right;}
+.ft-wrap .dd{float: right;width: 218px;height: 42px;}
+.ft-wrap .dd input[type=text]{width: 100%;height: 100%;line-height: 42px;border: none;font-size: 14px;color: #221815;}
+.ft-wrap .left{float: left;width: 166px;margin-top: 5px;margin-left: 7px;}
+.ft-wrap .left input[type=text]{width: 100%;height: 32px;border: 2px solid #d9dde2;line-height: 28px;padding: 0 19px;font-size: 14px;color: #221815;}
+.ft-wrap .right{float: right;width: 102px;height: 32px;margin-right: 38px;margin-top: 5px;}
+.ft-wrap .right img{width: 100%;height: 100%;}
+.ft-wrap .submit-row{width: 100%;}
+.ft-wrap input[type=submit]{width: 100%;height: 51px;background-color: #6394e3;line-height: 51px;font-size: 15px;color: #fff;text-align: center;border: none;cursor: pointer;}
+
+body.fixed #PoPy{position: fixed !important;z-index: 100000000 !important;}
+._citys{width: 630px; display: inline-block; border: 2px solid #eee; padding: 5px; position: relative; box-sizing: content-box;-ms-word-wrap: break-word; word-wrap: break-word;background-color: #fff;}
+._citys span{color: #6394e3; height: 15px; width: 15px; line-height: 12px;font-size: 16px;text-align: center; border-radius: 3px; position: absolute; right: 10px; top: 10px; border: 1px solid #6394e3; cursor: pointer;}
+._citys ._citys0{width: 100%; height: 34px; display: inline-block; border-bottom: 2px solid #6394e3; padding: 0; margin: 0;}
+._citys ._citys0 li{display: inline-block; line-height: 34px; font-size: 15px; color: #888; width: 80px; text-align: center; cursor: pointer;}
+._citys .citySel{background-color: #6394e3; color: #fff !important;}
+._citys ._citys1{width: 100%; display: inline-block; padding: 10px 0;}
+._citys ._citys1 a{width: 83px; height: 35px; display: inline-block; background-color: #f5f5f5; color: #666; margin-left: 6px; margin-top: 3px; line-height: 35px; text-align: center; cursor: pointer;font-size: 13px; overflow: hidden;}
+._citys ._citys1 a:hover{color: #fff; background-color: #6394e3;}
+._citys .AreaS{background-color: #6394e3 !important; color: #fff !important;}
+
+
+.roll-nav{position: fixed;top: 50%;left: 50%;z-index: 999;margin-left: 620px;margin-top: -235px;visibility: hidden;opacity: 0;transition: .3s;}
+.roll-nav.show{visibility: visible;opacity: 1;}
+.roll-nav ul li{position: relative;width: 88px;height: 88px;margin-bottom: 4px;background: #fff;border: 1px solid #d6d6d6;cursor: default;-webkit-transition: all .5s;transition: all .5s;}
+.roll-nav ul li ._box span{display: block;font-size: 15px;color: #666;text-align: center;line-height: 40px;-webkit-transition: all .3s;transition: all .3s;}
+.roll-nav ul li ._box i{display: block;width: 100%;height: 50px;background: no-repeat bottom center;}
+.roll-nav ul li.a1 ._box i{background-image: url("roll-nav-06.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-06.png*/;}
+.roll-nav ul li.a2 ._box i{background-image: url("roll-nav-07.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-07.png*/;}
+.roll-nav ul li.a3 ._box i{background-image: url("roll-nav-08.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-08.png*/;}
+.roll-nav ul li.a4 ._box i{background-image: url("roll-nav-09.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-09.png*/;}
+.roll-nav ul li.a5 ._box i{background-image: url("roll-nav-11.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-11.png*/;}
+.roll-nav ul li:hover{background: #e60021;}
+.roll-nav ul li:hover ._box span{color: #fff;}
+.roll-nav ul li.a1:hover ._box i{background-image: url("roll-nav-01.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-01.png*/;}
+.roll-nav ul li.a2:hover ._box i{background-image: url("roll-nav-02.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-02.png*/;}
+.roll-nav ul li.a3:hover ._box i{background-image: url("roll-nav-03.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-03.png*/;}
+.roll-nav ul li.a4:hover ._box i{background-image: url("roll-nav-04.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-04.png*/;}
+.roll-nav ul li.a5:hover ._box i{background-image: url("roll-nav-12.png")/*tpa=http://www.xydec.com.cn/images/roll-nav-12.png*/;}
+.roll-nav ul li.a1 ._sig{visibility: hidden;position: absolute;bottom: 0;right: 88px;padding: 0 5px;transform: scale(0);-webkit-transform: scale(0);transition: all ease .3s;-webkit-transition: all ease .3s;transform-origin: right bottom;-webkit-transform-origin: right bottom;}
+.roll-nav ul li.a1 ._sig span{display: block;width: 150px;height: 150px;overflow: hidden;background: #fff;}
+.roll-nav ul li.a1 ._sig span img{width: 100%;}
+.roll-nav ul li.a1:hover ._sig{visibility: visible;transform: scale(1);-webkit-transform: scale(1);}
+.roll-nav ul li.a5 ._form{visibility: hidden;position: absolute;top: 0;right: 88px;padding: 0 5px;transform: scale(0);-webkit-transform: scale(0);transition: all ease .3s;-webkit-transition: all ease .3s;transform-origin: right bottom;-webkit-transform-origin: right bottom;}
+.roll-nav ul li.a5 ._form form{width: 259px;height: 89px;overflow: hidden;padding: 8px;background: #dadada;box-sizing: border-box;}
+.roll-nav ul li.a5 ._form form input[type='text']{width: 100%;height: 38px;padding: 0 10px;border: none;background: #fff;box-sizing: border-box;line-height: 38px;}
+.roll-nav ul li.a5 ._form form > span._button{display: block;padding-top: 7px;text-align: right;}
+.roll-nav ul li.a5 ._form form > span._button input[type='button']{width: 62px;height: 28px;border: none;background: #e60021;font-size: 13px;color: #fff;text-align: center;}
+.roll-nav ul li.a5 ._form form > span._button input[type='button']:hover{background: #FF0000;}
+.roll-nav ul li.a5:hover ._form{visibility: visible;transform: scale(1);-webkit-transform: scale(1);}
+@media(max-width:1440px){
+    .roll-nav{margin-left: 0;left: auto;right: 0;}
+}
+.ft-wrap .dd{font-size: 0;}
+.ft-wrap .dd .w3{width: 33.33%;height: 100%;border: none;text-align: left;float: left;}
+.ft-wrap .dd select {height: 100%;border: none;text-align: left;}
+.layui-form-select{ height: 42px;}
+.layui-select-title{ height: 36px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
